@@ -70,6 +70,16 @@ The server will start on `http://localhost:3000` (or your specified PORT).
 
 ### 3. Install Chrome Extension
 
+**Option A: Automated Installation (Recommended)**
+```bash
+# Quick install (fast setup)
+node quick-install.cjs
+
+# Full install (comprehensive setup with validation)
+node install-extension.cjs
+```
+
+**Option B: Manual Installation**
 1. Open Chrome and go to `chrome://extensions/`
 2. Enable "Developer mode" (toggle in top-right)
 3. Click "Load unpacked"
@@ -83,6 +93,13 @@ The server will start on `http://localhost:3000` (or your specified PORT).
 node create_icons.cjs
 
 # This creates SVG icons - convert to PNG for production use
+```
+
+### 5. Uninstall Extension (Optional)
+
+```bash
+# Remove extension package and get uninstall instructions
+node uninstall-extension.cjs
 ```
 
 ## 📖 Usage Guide
