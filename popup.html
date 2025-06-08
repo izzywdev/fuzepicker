@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FuzePicker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <div class="popup-header">
+      <div class="header-content">
+        <h1 class="title">🧩 FuzePicker</h1>
+        <button id="togglePicker" class="picker-toggle" title="Toggle Element Picker">
+          <span class="picker-icon">🎯</span>
+          <span class="picker-text">Pick Element</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="tab-navigation">
+      <button class="tab-button active" data-tab="details">📋 Details</button>
+      <button class="tab-button" data-tab="discuss">💬 Discuss</button>
+      <button class="tab-button" data-tab="ai-tools">🤖 AI Tools</button>
+    </div>
+
+    <!-- Tab Content -->
+    <div class="tab-content">
+      <!-- Details Tab -->
+      <div id="details-tab" class="tab-panel active">
+        <div class="no-selection" id="noSelection">
+          <div class="empty-state">
+            <span class="empty-icon">🎯</span>
+            <h3>No Element Selected</h3>
+            <p>Click the "Pick Element" button and select any element on the webpage to get started.</p>
+          </div>
+        </div>
+        
+        <div class="element-details" id="elementDetails" style="display: none;">
+          <div class="detail-section">
+            <h3>Element Info</h3>
+            <div class="detail-row">
+              <span class="label">Tag:</span>
+              <span class="value" id="elementTag"></span>
+            </div>
+            <div class="detail-row">
+              <span class="label">Classes:</span>
+              <span class="value" id="elementClasses"></span>
+            </div>
+            <div class="detail-row">
+              <span class="label">ID:</span>
+              <span class="value" id="elementId"></span>
+            </div>
+            <div class="detail-row">
+              <span class="label">Text:</span>
+              <span class="value" id="elementText"></span>
+            </div>
+          </div>
+
+          <div class="detail-section">
+            <h3>Computed Styles</h3>
+            <div class="styles-container" id="stylesContainer"></div>
+          </div>
+
+          <div class="detail-section">
+            <h3>Selectors</h3>
+            <div class="selector-row">
+              <span class="label">CSS Selector:</span>
+              <code class="selector-value" id="cssSelector"></code>
+              <button class="copy-btn" data-copy="css">📋</button>
+            </div>
+            <div class="selector-row">
+              <span class="label">XPath:</span>
+              <code class="selector-value" id="xpathSelector"></code>
+              <button class="copy-btn" data-copy="xpath">📋</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Discuss Tab -->
+      <div id="discuss-tab" class="tab-panel">
+        <div class="discussion-container">
+          <div class="comment-form">
+            <textarea 
+              id="commentInput" 
+              placeholder="Add a comment about this element..."
+              rows="3"
+            ></textarea>
+            <button id="addComment" class="btn-primary">Add Comment</button>
+          </div>
+          
+          <div class="comments-list" id="commentsList">
+            <!-- Comments will be dynamically added here -->
+          </div>
+        </div>
+      </div>
+
+      <!-- AI Tools Tab -->
+      <div id="ai-tools-tab" class="tab-panel">
+        <div class="ai-tools-container">
+          <div class="ai-actions">
+            <h3>AI Actions</h3>
+            <div class="action-buttons">
+              <button class="ai-btn" data-action="discuss">
+                <span class="btn-icon">💬</span>
+                <span class="btn-text">Discuss Element</span>
+                <span class="btn-desc">Get design & accessibility insights</span>
+              </button>
+              
+              <button class="ai-btn" data-action="figma">
+                <span class="btn-icon">🎨</span>
+                <span class="btn-text">Create Figma</span>
+                <span class="btn-desc">Generate Figma component</span>
+              </button>
+              
+              <button class="ai-btn" data-action="playwright">
+                <span class="btn-icon">🧪</span>
+                <span class="btn-text">Write Test</span>
+                <span class="btn-desc">Generate Playwright test</span>
+              </button>
+              
+              <button class="ai-btn" data-action="react">
+                <span class="btn-icon">⚛️</span>
+                <span class="btn-text">React Component</span>
+                <span class="btn-desc">Create React implementation</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="ai-outputs" id="aiOutputs">
+            <h3>AI Outputs</h3>
+            <div class="outputs-list" id="outputsList">
+              <!-- AI outputs will be displayed here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="popup-footer">
+      <div class="status-bar" id="statusBar">
+        Ready to pick elements
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html> 

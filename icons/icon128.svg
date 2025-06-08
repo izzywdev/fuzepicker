@@ -1,0 +1,35 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="62" fill="url(#gradient)" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Main icon - target/picker symbol -->
+  <g transform="translate(64, 64)">
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="10.666666666666666" fill="#fff"/>
+    
+    <!-- Inner circle -->
+    <circle cx="0" cy="0" r="21.333333333333332" fill="none" stroke="#fff" stroke-width="4"/>
+    
+    <!-- Outer circle -->
+    <circle cx="0" cy="0" r="36.57142857142857" fill="none" stroke="#fff" stroke-width="2.6666666666666665"/>
+    
+    <!-- Crosshairs -->
+    <line x1="-51.2" y1="0" x2="-32" y2="0" stroke="#fff" stroke-width="2.6666666666666665"/>
+    <line x1="32" y1="0" x2="51.2" y2="0" stroke="#fff" stroke-width="2.6666666666666665"/>
+    <line x1="0" y1="-51.2" x2="0" y2="-32" stroke="#fff" stroke-width="2.6666666666666665"/>
+    <line x1="0" y1="32" x2="0" y2="51.2" stroke="#fff" stroke-width="2.6666666666666665"/>
+  </g>
+  
+  <!-- AI indicator - small sparkle -->
+  <g transform="translate(96, 32)">
+    <path d="M0,-3 L1,0 L0,3 L-1,0 Z" fill="#ffd700"/>
+    <path d="M-3,0 L0,1 L3,0 L0,-1 Z" fill="#ffd700"/>
+  </g>
+</svg>

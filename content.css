@@ -1,0 +1,23 @@
+/* FuzePicker Content Script Styles */
+/* This CSS is injected into the host page, so keep it minimal and highly specific */
+
+#fuzepicker-shadow-host {
+  all: initial !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: none !important;
+  z-index: 999999 !important;
+}
+
+/* Picker active cursor override */
+body.fuzepicker-active {
+  cursor: crosshair !important;
+}
+
+/* Ensure our shadow host doesn't interfere */
+#fuzepicker-shadow-host * {
+  box-sizing: border-box !important;
+} 
