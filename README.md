@@ -1,6 +1,14 @@
 # FuzePicker - AI DOM Element Assistant
 
+[![GitHub license](https://img.shields.io/github/license/izzywdev/fuzepicker-chrome-extension)](https://github.com/izzywdev/fuzepicker-chrome-extension/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/izzywdev/fuzepicker-chrome-extension)](https://github.com/izzywdev/fuzepicker-chrome-extension/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/izzywdev/fuzepicker-chrome-extension)](https://github.com/izzywdev/fuzepicker-chrome-extension/issues)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://github.com/izzywdev/fuzepicker-chrome-extension)
+[![AI Powered](https://img.shields.io/badge/AI-Powered-green?logo=openai)](https://openai.com)
+
 FuzePicker is a powerful Chrome extension that allows you to select DOM elements on any webpage and get AI-powered insights for development. Whether you need to discuss design choices, create Figma components, write Playwright tests, or implement React components, FuzePicker has you covered.
+
+**🔗 Repository:** [https://github.com/izzywdev/fuzepicker-chrome-extension](https://github.com/izzywdev/fuzepicker-chrome-extension)
 
 ## 🌟 Features
 
@@ -33,8 +41,8 @@ FuzePicker is a powerful Chrome extension that allows you to select DOM elements
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/fuzepicker.git
-cd fuzepicker
+git clone https://github.com/izzywdev/fuzepicker-chrome-extension.git
+cd fuzepicker-chrome-extension
 
 # Install backend dependencies
 cd backend
@@ -72,7 +80,7 @@ The server will start on `http://localhost:3000` (or your specified PORT).
 
 ```bash
 # From the icons directory
-node create_icons.js
+node create_icons.cjs
 
 # This creates SVG icons - convert to PNG for production use
 ```
@@ -101,7 +109,7 @@ The popup has three main tabs:
 ## 🏗️ Project Structure
 
 ```
-fuzepicker/
+fuzepicker-chrome-extension/
 ├── manifest.json              # Chrome extension manifest
 ├── content.js                 # Element picker and UI injection
 ├── content.css               # Minimal host page styles
@@ -314,8 +322,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/fuzepicker/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/fuzepicker/discussions)
+- **Issues**: [GitHub Issues](https://github.com/izzywdev/fuzepicker-chrome-extension/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/izzywdev/fuzepicker-chrome-extension/discussions)
 - **Email**: support@fuzepicker.com
 
 ---
