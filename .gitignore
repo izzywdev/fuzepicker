@@ -124,6 +124,9 @@ dist/
 build/
 out/
 
+# Generated extension package
+extension-package/
+
 # Package files
 *.tgz
 *.tar.gz
