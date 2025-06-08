@@ -1,14 +1,14 @@
 # FuzePicker - AI DOM Element Assistant
 
-[![GitHub license](https://img.shields.io/github/license/izzywdev/fuzepicker-chrome-extension)](https://github.com/izzywdev/fuzepicker-chrome-extension/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/izzywdev/fuzepicker-chrome-extension)](https://github.com/izzywdev/fuzepicker-chrome-extension/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/izzywdev/fuzepicker-chrome-extension)](https://github.com/izzywdev/fuzepicker-chrome-extension/issues)
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://github.com/izzywdev/fuzepicker-chrome-extension)
+[![GitHub license](https://img.shields.io/github/license/izzywdev/fuzepicker)](https://github.com/izzywdev/fuzepicker/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/izzywdev/fuzepicker)](https://github.com/izzywdev/fuzepicker/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/izzywdev/fuzepicker)](https://github.com/izzywdev/fuzepicker/issues)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://github.com/izzywdev/fuzepicker)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-green?logo=openai)](https://openai.com)
 
 FuzePicker is a powerful Chrome extension that allows you to select DOM elements on any webpage and get AI-powered insights for development. Whether you need to discuss design choices, create Figma components, write Playwright tests, or implement React components, FuzePicker has you covered.
 
-**🔗 Repository:** [https://github.com/izzywdev/fuzepicker-chrome-extension](https://github.com/izzywdev/fuzepicker-chrome-extension)
+**🔗 Repository:** [https://github.com/izzywdev/fuzepicker](https://github.com/izzywdev/fuzepicker)
 
 ## 🌟 Features
 
@@ -41,8 +41,8 @@ FuzePicker is a powerful Chrome extension that allows you to select DOM elements
 
 ```bash
 # Clone the repository
-git clone https://github.com/izzywdev/fuzepicker-chrome-extension.git
-cd fuzepicker-chrome-extension
+git clone https://github.com/izzywdev/fuzepicker.git
+cd fuzepicker
 
 # Install backend dependencies
 cd backend
@@ -109,7 +109,7 @@ The popup has three main tabs:
 ## 🏗️ Project Structure
 
 ```
-fuzepicker-chrome-extension/
+fuzepicker/
 ├── manifest.json              # Chrome extension manifest
 ├── content.js                 # Element picker and UI injection
 ├── content.css               # Minimal host page styles
@@ -322,8 +322,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/izzywdev/fuzepicker-chrome-extension/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/izzywdev/fuzepicker-chrome-extension/discussions)
+- **Issues**: [GitHub Issues](https://github.com/izzywdev/fuzepicker/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/izzywdev/fuzepicker/discussions)
 - **Email**: support@fuzepicker.com
 
 ---
