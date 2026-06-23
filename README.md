@@ -1,14 +1,14 @@
 # FuzePicker - AI DOM Element Assistant
 
-[![GitHub license](https://img.shields.io/github/license/izzywdev/fuzepicker)](https://github.com/izzywdev/fuzepicker/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/izzywdev/fuzepicker)](https://github.com/izzywdev/fuzepicker/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/izzywdev/fuzepicker)](https://github.com/izzywdev/fuzepicker/issues)
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://github.com/izzywdev/fuzepicker)
+[![GitHub license](https://img.shields.io/github/license/izzywdev/FuzePicker)](https://github.com/izzywdev/FuzePicker/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/izzywdev/FuzePicker)](https://github.com/izzywdev/FuzePicker/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/izzywdev/FuzePicker)](https://github.com/izzywdev/FuzePicker/issues)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://github.com/izzywdev/FuzePicker)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-green?logo=openai)](https://openai.com)
 
 FuzePicker is a powerful Chrome extension that allows you to select DOM elements on any webpage and get AI-powered insights for development. Whether you need to discuss design choices, create Figma components, write Playwright tests, or implement React components, FuzePicker has you covered.
 
-**🔗 Repository:** [https://github.com/izzywdev/fuzepicker](https://github.com/izzywdev/fuzepicker)
+**🔗 Repository:** [https://github.com/izzywdev/FuzePicker](https://github.com/izzywdev/FuzePicker)
 
 ## 🌟 Features
 
@@ -41,7 +41,7 @@ FuzePicker is a powerful Chrome extension that allows you to select DOM elements
 
 ```bash
 # Clone the repository
-git clone https://github.com/izzywdev/fuzepicker.git
+git clone https://github.com/izzywdev/FuzePicker.git
 cd fuzepicker
 
 # Install backend dependencies
@@ -339,8 +339,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/izzywdev/fuzepicker/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/izzywdev/fuzepicker/discussions)
+- **Issues**: [GitHub Issues](https://github.com/izzywdev/FuzePicker/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/izzywdev/FuzePicker/discussions)
 - **Email**: support@fuzepicker.com
 
 ---
